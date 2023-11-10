@@ -1,0 +1,548 @@
+* {
+    font-family: 'Playpen Sans', cursive;
+    margin: 0px;
+    border: border-box;
+}
+
+main{
+    background-color: #b1b1b195;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    height: 60px;
+    width: 240px;
+    display: flex;
+}
+
+.nav-logo {
+    width: 113px;
+    height: 56px;
+    margin-left: 11px;
+    padding-top: 4px;
+}
+
+.logo {
+    background-image: url("./imgs/amazon_logo.png");
+    width: 100%;
+    height: 49px;
+    background-size: cover;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+/**box 2 **/
+
+.nav-loc {
+    width: 115px;
+    height: 50px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 9px 0px 9px;
+    align-items: center;
+}
+
+.loc-ico {
+    display: flex;
+}
+
+.fa-location-dot {
+    padding-right: 2px;
+    padding-top: 1.3px;
+}
+
+.loc1 {
+    width: 73px;
+    height: 14px;
+    font-size: 0.75rem;
+    color: #cccc;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.loc2 {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/**box3**/
+
+.nav-fill {
+    width: 1255px;
+    height: 60px;
+}
+
+#nav-search {
+    width: 1200px;
+    height: 40px;
+    padding: 10px 4px 10px 3px;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+#sel {
+    width: 55px;
+    height: 40px;
+}
+
+#srch {
+    width: 1200px;
+    height: 40px;
+    border: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#src {
+    width: 45px;
+    height: 40px;
+    background-color: #ffd059;
+    border-radius: 2px;
+}
+
+.fa-magnifying-glass {
+    color: #0F1111;
+    padding: 11.5px 0px 0px 14px;
+}
+
+/**right**/
+
+.nav-right {
+    padding-top: 3px;
+    margin-top: 2px;
+    width: 450px;
+    height: 55px;
+    display: flex;
+}
+
+/**box1**/
+
+.nav-lan {
+    width: 73px;
+    height: 45px;
+    padding: 0px 9px 5px 9px;
+    margin-left: 1px;
+    display: flex;
+}
+
+
+#lan {
+    position: relative;
+    top: 15px;
+    bottom: 0px;
+}
+
+#lan2 {
+    position: relative;
+    top: 15px;
+    bottom: 0px;
+}
+
+/**box2**/
+
+.sign {
+    width: 111px;
+    height: 36px;
+    padding: 0px 9px 10px 9px;
+    margin-left: 6px;
+}
+
+.sim1 {
+    font-size: 0.75rem;
+    position: relative;
+    top: 5px;
+}
+
+.sim2 {
+    font-size: 0.89rem;
+    font-weight: bold;
+}
+
+.ro {
+    width: 55px;
+    height: 36px;
+    padding: 0px 9px 10px 9px;
+    margin-left: 6px;
+}
+
+.cart {
+    width: 66px;   
+    height: 35px;
+    padding: 0px 9px 11px 9px;
+    margin: 0px 15px 0px 6px;
+    display: flex;
+    
+}
+
+.fa-cart-shopping {
+    position: relative;
+    top: 25px;
+}
+
+.cart1 {
+    margin-top: 17px;
+    margin-left: 3px;
+}
+
+/**nav2**/
+
+.xnav {
+    width: 100%;
+    height: 39px;
+    background-color: #31343b;
+    display: flex;
+}
+
+.all {
+    width: 40px;
+    height: 19px;
+    padding: 8px 9px 5px 9px;
+    margin-left: 3px;
+    display: flex;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.sim3 {
+    font-size: 0.89rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: 3px;
+    left: 4px;
+}
+
+.sim4 {
+    font-size: 0.80rem;
+    color: white;
+    font-weight: bold;
+}
+
+.td1 {
+    height: inherit;
+    position: relative;
+    bottom: 5px;
+}
+
+.td {
+    width: 84px;
+    height: 12px;
+    padding: 8px 12px 8px 12px;
+    margin: 5px 0px 6px 0px;
+}
+
+.reg1 {
+    height: inherit;
+    position: relative;
+    bottom: 5px;
+}
+
+.reg{
+    width: 51px;
+    height: 12px;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0px 6px 0px;
+}
+
+.cs {
+    width: 110px;
+    height: 12px;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0px 6px 0px;
+}
+
+.cs1 {
+    height: inherit;
+    position: relative;
+    bottom: 5px;
+}
+
+.gc {
+    width: 63px;
+    height: 12px;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0px 6px 0px;
+}
+
+.gc1 {
+    height: inherit;
+    position: relative;
+    bottom: 5px;
+}
+
+.sell {
+    width: 23px;
+    height: 12px;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0px 6px 0px;
+}
+
+.sell1 {
+    height: inherit;
+    position: relative;
+    bottom: 5px;
+}
+
+/**hero**/
+
+.hero-img {
+    background-image: url("./imgs/hero_image.jpg");
+    height: 250px;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/**row**/
+
+.row-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    border: 10px solid #b1b1b195;
+    height: 385px;
+    width: 332px;
+}
+
+.first {
+    border-top: 0px;
+}
+
+#imgs {
+    height: 75%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#text {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+}
+#text2 {
+    font-size: 0.80rem;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #007185;
+    font-weight: bold;
+}
+
+.row-container_2 {
+    display: flex;
+    margin: 0% 13.5%;
+    height: 280px;
+    background: white;
+}
+
+.box_2 {
+    width: 240px;
+    height: 200px;
+    padding-top:4%;
+}
+
+#pic1 {
+    height: 165px;
+    width: 200px;
+    margin: 0px 5px 0px 20px;
+}
+
+#pic {
+    height: 165px;
+    width: 200px;
+}
+
+.box_3 {
+    width: 240px;
+    height: 200px;
+    padding-top:3px;
+}
+
+#text3 {
+    display: flex;
+    padding: 5% 0% 5% 9%;
+}
+
+#ed {
+    display: inline-block;
+    height: 30px;
+    width: 130px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sd {
+    display: inline-block;
+    font-size: 0.70rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 9px 0px 0px 4px;
+    color: #007185;
+}
+
+.footer_nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 400px 100px 400px 100px;
+}
+
+.one {
+    background-color: rgba(34, 48, 65, 0.908);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#one {
+    font-size: 0.80rem;
+}
+
+.two {
+    background-color: rgb(35, 47, 62);
+    border-bottom: 1px solid rgb(58, 69, 83);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.block {
+    height: 320px;
+    width: 180px;
+    color: white;
+}
+h3, #two {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.95rem;
+    padding: 4px;
+    color: white;
+}
+
+.two_third {
+    width: 220px;
+}
+
+.three {
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flink {
+    height: 33px;
+    width: 125px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    margin-left: 100px;
+    display: flex;    
+    align-items: center;
+}
+
+.fa-globe, .fa-dollar-sign {
+    margin: 0px 5px 0px 5px;
+}
+
+.lang, .curr, .regi {
+    border: 1px solid rgb(132, 134, 136);
+    border-radius: 5px;
+}
+
+.caret {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7px 7px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.flogo {
+    background-image: url("./imgs/rsz_1amazon_logo.png");
+    background-size: cover;
+    height: 90%;
+    width: 90px;
+}
+
+.curr {
+    width: 140px;
+}
+
+#curr {
+    color: white;
+    font-size: 0.90rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.flag {
+    width: 18px;
+    height: 12px;
+    background-image: url("./imgs/2560px-Flag_of_the_United_States.svg.png");
+    background-size: cover;
+    margin: 0px 10px 0px 5px;
+}
+.card {
+    background-color: rgb(19, 26, 34);
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f_text {
+    display: grid;
+    grid-template-columns: 145px 145px 145px 145px 145px 145px 145px;
+    grid-template-rows: 70px 70px 70px 70px ;
+    gap: 15px;
+}
+
+#text_b {
+    color: #DDDDDD;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+#text_n {
+    color: #999999;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.80em;
+}
+
+.text_five {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.75rem;
+    justify-content: center;
+
+}
+
+#five {
+    font-family: 'Nunito Sans', sans-serif;
+    border: 15px solid rgb(19, 26, 34); 
+    color: white;
+}
